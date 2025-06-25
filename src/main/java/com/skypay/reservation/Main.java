@@ -7,8 +7,16 @@ public class Main {
         Service service = new Service();
         SimpleDateFormat sDateFrmt = new SimpleDateFormat("dd/MM/yyyy");
 
+        // the test case 
+        // Creating three rooms : 
+
+        // Room 1 : standard
         service.setRoom(1, RoomType.STANDARD, 1000);
+
+        // Room 2 : Junior
         service.setRoom(2, RoomType.JUNIOR, 2000);
+
+        // Room 3 : Suite
         service.setRoom(3, RoomType.SUITE, 3000);
 
         service.setUser(1, 5000);
